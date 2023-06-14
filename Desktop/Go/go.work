@@ -1,0 +1,9 @@
+go 1.20
+
+use (
+	./programs/tiktok/assignment_demo_2023/http-server
+	./programs/tiktok/assignment_demo_2023/rpc-server
+	./programs/tiktok/kitex-examples
+	./programs/tiktok/kitex-examples/bizdemo/easy_note
+	./programs/tiktok/kitex-examples/proxyless
+)
