@@ -7,12 +7,12 @@ This project is part of Tiktok Tech Immersion Programme 2023's Backend Assignmen
 ## Project Requirements
 The following are the requirements for the project:
 
-Implement an HTTP server to process HTTP requests and responses.
-Utilize a Redis server as a datastore for storing messages.
-Implement handlers in the RPC server to send and pull messages.
-Setup and configure the Redis server.
-Edit the docker-compose.yml file to add a Redis server.
-Setup a Redis client in the RPC server.
+1. Implement an HTTP server to process HTTP requests and responses.
+2. Utilize a Redis server as a datastore for storing messages.
+3. Implement handlers in the RPC server to send and pull messages.
+4. Setup and configure the Redis server.
+5. Edit the docker-compose.yml file to add a Redis server.
+6. Setup a Redis client in the RPC server.
 
 ## API Specifications
 The project follows the API specifications defined in idl_http.proto. It will send and pull messages through a Redis server.
